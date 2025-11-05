@@ -20,7 +20,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Dict, Mapping, Optional, List
+from typing import Dict, Mapping, Optional, List, Tuple
 
 from .components import get_logger, split_aliases
 from .variables import (
@@ -229,7 +229,7 @@ def infer_template_id_from_filename(input_pdf: Path, index_path: Optional[Path] 
         if not isinstance(data, dict):
             return None
 
-        candidates: List[tuple[str, int]] = []  # (template_id, score)
+        candidates: List[Tuple[str, int]] = []  # (template_id, score)
 
         def _score_for_pattern(p: str) -> int:
             # 简单以匹配片段长度作为特异性评分

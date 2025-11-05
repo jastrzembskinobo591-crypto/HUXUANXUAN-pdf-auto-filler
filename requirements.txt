@@ -1,0 +1,11 @@
+# 核心依赖（第一阶段）
+pdfplumber==0.11.0
+reportlab==4.1.0
+PyPDF2==3.0.1
+pymupdf==1.24.9
+Pillow==10.3.0
+
+# 测试与开发（可选）
+pytest==7.4.4
+
+

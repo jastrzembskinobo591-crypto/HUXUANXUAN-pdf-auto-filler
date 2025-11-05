@@ -1,0 +1,5 @@
+﻿{
+  "身份证号：": { "offset_x": 120, "offset_y": 2, "max_width": 180, "line_spacing": 14 },
+  "企业名称：": { "offset_x": 120, "offset_y": 2, "max_width": 220, "line_spacing": 14 },
+  "联系电话：": { "offset_x": 120, "offset_y": 2, "max_width": 180, "line_spacing": 14 }
+}

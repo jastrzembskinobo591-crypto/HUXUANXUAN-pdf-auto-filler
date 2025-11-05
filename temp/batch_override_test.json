@@ -1,0 +1,14 @@
+﻿[
+  {
+    "__input_pdf": "examples/bank_b_contract.pdf",
+    "__template_id": "default",
+    "身份证号：": "321088199612120011",
+    "企业名称：": "覆盖为默认模板（应更靠左）"
+  },
+  {
+    "__input_pdf": "examples/blank_contract.pdf",
+    "__keywords_json": "config/keywords_bank_b.json",
+    "身份证号：": "510101198806060022",
+    "企业名称：": "指定bank_b配置（应更靠右）"
+  }
+]

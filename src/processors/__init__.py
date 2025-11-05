@@ -9,6 +9,8 @@
   - engines/{pymupdf.py, reportlab.py, raster.py}（三引擎绘制）
 """
 
-__all__: list[str] = []
+from typing import List
+
+__all__: List[str] = []
 
 

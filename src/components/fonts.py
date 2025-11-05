@@ -5,6 +5,8 @@
 当前阶段无业务实现，保持对外 API 不变（请从 `src.components` 导入）。
 """
 
-__all__: list[str] = []
+from typing import List
+
+__all__: List[str] = []
 
 
